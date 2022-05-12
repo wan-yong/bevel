@@ -1,7 +1,7 @@
 var express = require('express')
   , router = express.Router()
 
-BASEURL = '/api/v1'
+const BASEURL = '/api/v1'
 
 router.use( BASEURL, require('./general'))
 router.use( BASEURL + '/container', require('./container'))
